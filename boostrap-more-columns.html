@@ -26,59 +26,71 @@
 
   <h1>Computer Programming</h1>
 
-  <!-- to make use of Bootstraps's columns,
-  need to define what is a row and what is a column -->
+  <!--Will display the screen width here -->
+  <h2 id="width"></h2>
 
+  <!-- Need need to define the rows columns -->
 
-  <!--first row -->
-
+  <!--first row, which will contain two columns -->
   <div class="row">
 
-    <!--Inside the row, create a column-->
-    <div class="col-sm-6">
-
+    <!--Inside the row, create a column. This column is 6 units wide-->
+    <!-- md: Will be horizontal above 990px screen width, stacked otherwise -->
+    <div class="col-md-6">
       <img src="computer.jpg">
-
     </div>
 
-    <!-- Still inside the row, add a second column -->
-    <div class="col-sm-6">
-
+    <!-- Still inside the row, add a second column, also 6 units wide -->
+    <div class="col-md-6">
       <h2>A list of programming languages</h2>
       <ul>
         <li>Java</li>
         <li>C#</li>
         <li>Python</li>
       </ul>
-
     </div>
-  </div>
 
+  </div>     <!-- end of first row -->
 
-  <!-- Create a second row with 3 columns -->
+  <!-- Create a second row with 3 columns, each 4 units wide -->
   <div class="row">
 
-    <div class="col-md-4">
+    <!-- sm: Will be horizontal above 768px screen width, stacked otherwise -->
+    <div class="col-sm-4">
       <h2>Java</h2>
       <p>Java is a compiled, OO language</p>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-4">
       <h2>C#</h2>
       <p>C# is also a compiled, OO language</p>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-4">
       <h2>Python</h2>
-      <p>Python is an interpreted, multi-paradigm language</p>
+      <p>Python is an interpreted language</p>
     </div>
 
-
-  </div>
-
+  </div>    <!-- end of second row -->
 
 </div>
 
 </body>
+
+
+<!-- Little bit of JavaScript to display the browser screen
+width, and update it as the window is resized-->
+<script>
+
+  document.body.onresize = displayWidth;
+  displayWidth();
+
+  function displayWidth() {
+    var width = document.body.clientWidth;
+    document.getElementById("width").innerHTML =  "Window width = " + width + " pixels";
+  }
+
+</script>
+
 </html>
 

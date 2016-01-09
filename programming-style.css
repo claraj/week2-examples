@@ -17,6 +17,14 @@ or to Bootstrap's classes*/
     padding:20px
 }
 
+.skills {
+    background-color: greenyellow;
+}
+
+.skill {
+    color:grey;
+}
+
 .details {
     background-color: orangered;
     color:darkslategray;
