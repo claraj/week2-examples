@@ -11,6 +11,15 @@ or to Bootstrap's classes*/
 
 }
 
+.schools {
+    background-color:lightgray;
+}
+
+.mctc,  .stpaul {
+    color:darkblue;
+}
+
+
 .intro {
     background-color: purple;
     color:antiquewhite;
@@ -49,4 +58,6 @@ li {
 }
 
 
-
+a {
+    color:blue;
+}

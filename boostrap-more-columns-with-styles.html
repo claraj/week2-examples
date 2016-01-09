@@ -21,7 +21,6 @@
 
 </head>
 
-
 <body>
 
 <!--container-fluid resizes in a smoother way than container. -->
@@ -30,30 +29,27 @@
 
   <h1>Computer Programming</h1>
 
-  <!-- to make use of Bootstraps's columns,
-  need to define what is a row and what is a column -->
-
-  <!--Another row with 2 columns -->
+  <!--A row with 2 columns.
+  These are narrow so should only stack at very small resolutions -->
   <div class="row schools">
 
-    <div class="col-sm-6">
-      <h4 class="school"><a href="http://www.minneapolis.edu">MCTC</a></h4>
+    <div class="col-xs-6">
+      <h4 class="school mctc">Study at <a href="http://www.minneapolis.edu">MCTC</a></h4>
     </div>
 
-    <div class="col-sm-6">
-      <h4 class="school"><a href="http://saintpaul.edu">St Paul College</a></h4>
+    <div class="col-xs-6">
+      <h4 class="school stpaul">Study at <a href="http://saintpaul.edu">St Paul College</a></h4>
     </div>
-
 
   </div>
 
 
 
-
-  <!--first row. Add an extra class to identify this row -->
+  <!--Another row. Add an extra class to identify this row -->
   <div class="row intro">
 
-    <!--Inside the row, create a column-->
+    <!--Inside the row, create a column.
+    These columns stack at small resolution and below-->
     <div class="col-sm-6">
       <img src="computer.jpg">
     </div>
@@ -71,7 +67,7 @@
     </div>
   </div>
 
-  <!--A second row with 4 columns -->
+  <!--A second row with 4 columns. Columns stack at small resolution and below. -->
   <div class="row skills">
 
     <div class="col-sm-3">
@@ -94,23 +90,21 @@
   </div>
 
 
-
-
-
   <!-- Create a third row with 3 columns. Again, add a custom class. -->
   <div class="row details">
 
-    <div class="col-sm-4" id="java">
+    <!--These are wider elements so should stack at medium and below -->
+    <div class="col-md-4" id="java">
       <h2>Java</h2>
       <p>Java is a compiled, OO language</p>
     </div>
 
-    <div class="col-sm-4" id="csharp">
+    <div class="col-md-4" id="csharp">
       <h2>C#</h2>
       <p>C# is also a compiled, OO language</p>
     </div>
 
-    <div class="col-sm-4" id="python">
+    <div class="col-md-4" id="python">
       <h2>Python</h2>
       <p>Python is an interpreted, multi-paradigm language</p>
     </div>
