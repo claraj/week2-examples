@@ -1,0 +1,86 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Bootstrap Elements</title>
+
+  <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!--Can supplement Bootstrap's styles with our own. -->
+  <link rel="stylesheet" href="programming-style.css">
+
+</head>
+
+
+<body>
+
+<!--container-fluid resizes in a smoother way than container. -->
+
+<div class="container-fluid">
+
+  <h1>Computer Programming</h1>
+
+  <!-- to make use of Bootstraps's columns,
+  need to define what is a row and what is a column -->
+
+
+  <!--first row. Add an extra class to identify this row -->
+
+  <div class="row intro">
+
+    <!--Inside the row, create a column-->
+    <div class="col-sm-6">
+
+      <img src="computer.jpg">
+
+    </div>
+
+    <!-- Still inside the row, add a second column -->
+    <div class="col-sm-6">
+
+      <h2>A list of programming languages</h2>
+      <ul>
+        <li>Java</li>
+        <li>C#</li>
+        <li>Python</li>
+      </ul>
+
+    </div>
+  </div>
+
+
+  <!-- Create a second row with 3 columns. Again, add a custom class. -->
+  <div class="row details">
+
+    <div class="col-md-4" id="java">
+      <h2>Java</h2>
+      <p>Java is a compiled, OO language</p>
+    </div>
+
+    <div class="col-md-4" id="csharp">
+      <h2>C#</h2>
+      <p>C# is also a compiled, OO language</p>
+    </div>
+
+    <div class="col-md-4" id="python">
+      <h2>Python</h2>
+      <p>Python is an interpreted, multi-paradigm language</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
+

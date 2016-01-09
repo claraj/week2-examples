@@ -1,0 +1,44 @@
+/*Add any other styles you need
+Either to tags,
+or to elements with your own class/id attributes;
+or to Bootstrap's classes*/
+
+
+/*Apply style to boostrap's container-fluid*/
+.container-fluid{
+    background-color: oldlace;
+    color:darkslategray;
+
+}
+
+.intro {
+    background-color: purple;
+    color:antiquewhite;
+    padding:20px
+}
+
+.details {
+    background-color: orangered;
+    color:darkslategray;
+    padding: 20px
+}
+
+#java {
+    background-color: plum;
+}
+
+#csharp {
+    background-color: aquamarine;
+}
+
+#python {
+    background-color: aqua;
+}
+
+/*Apply style to all li elements*/
+li {
+    font-style: italic;
+}
+
+
+

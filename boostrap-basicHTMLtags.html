@@ -1,0 +1,154 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Bootstrap Acting on HTML elements</title>
+
+  <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+<div class="container">
+
+  <h1>The Header for the page</h1>
+  <h2>Some HTML tags</h2>
+  <p>This is a list of some common HTML tags.</p>
+  <div class="textemphasis">
+    <h3>Text Emphasis</h3>
+    <p><B>Italic and Bold</B> &lti&gt and &ltb&gt are used to display text in an italic font, such as for names of movies like <i>Back to the Future III</i>.
+      You might also want to use bold text that is <b>important</b>.
+    </p>
+    <P><b>Emphasised and Strong Text</B> &ltem&gt and &ltstring&gt There are also tags for <em>emphasized text</em> and for <strong>strong text</strong> which have
+      slightly different meanings to italic &lti&gt and bold &ltb&gt tags, but display the same in most browsers.
+    </P>
+    <P><b>Escape characters</b> To display special HTML characters on a page, such as &gt and &lt and &amp, you need to use escape sequences.
+      So to display &amp you need to type "&ampamp" in your HTML, for &gt and &lt you need to type "&ampgt" and "&amplt"
+    </P>
+  </div>
+  <div class="formatting_blocks">
+    <h3>Formatting Blocks of Text</h3>
+         <pre><b>Preformatted text</b> The &ltpre&gt tag is for pre-formatted text. It displays in a monospace font, and unlike p tags, lines of text that are wider than the browser window do not wrap,
+  spaces        and returns
+    and tabs          in the HTML source are preserved and displayed in the browser. This may be useful for code.
+  </pre>
+    <p>
+      <code>
+        <b>Code blocks</b> There's also a &ltcode&gt tag. Unlike pre, this mostly changes the font, does not preserve tabs, and wraps. You'll need to do some extra work in CSS to display code nicely.
+    <P>
+      console.log("hello world!");
+    </P>
+    </code>
+    </p>
+    <blockquote><b>Block quotes</b> &ltblockquote&gt is another way to display text in a block; by default this is indented. </blockquote>
+  </div>
+  <div class="organizing">
+    <h3>Organizing Sections</h3>
+    <P><b>Span</b> &ltspan&gt tags are mostly used for applying styles to text within a paragraph.
+      There's a <span>span in this paragraph</span> but you'll only see it if you look at the source,
+      or apply a visible style to span tags.
+    </P>
+    <p><b>Div</b> &ltdiv&gt tags are for organizing content into sections.
+      It's common to add a class attribute to label your sections.
+    </p>
+  </div>
+  <div class="organizing_info">
+    <h3>Organizing Information</h3>
+    <p><b>Tables</b> use many tags. &lttable&gt, &lttr&gt, &ltth&gt, &lttd&gt...
+      <a href="http://www.w3schools.com/html/html_tables.asp">There are some example tables at W3Schools</a>.
+    </p>
+    <P>It's very common to use CSS to apply styles to tables, since the default version is very basic.</P>
+    <P>
+    <table>
+      <tr>
+        <th>Class Code</th>
+        <th>Class Name</th>
+      </tr>
+      <tr>
+        <td>1100</td>
+        <td>Info Tech Concepts</td>
+      </tr>
+      <tr>
+        <td>1110</td>
+        <td>Info Tech Skills</td>
+      </tr>
+    </table>
+    </P>
+    <p><b>Definition</b> lists are used to relate terms and definitions.
+      &ltdl&gt tags create a definition list, &ltdt&gt define terms and &ltdd&gt for that
+      term's definition.
+    </p>
+    <dl>
+      <dt>HTML</dt>
+      <dd>What does the text/resource represent?</dd>
+      <dt>CSS</dt>
+      <dd>What should it look like?</dd>
+    </dl>
+    <p>Like tables, the basic definition list is <i>very</i> basic, and is usually made to look nicer with CSS.</p>
+  </div>
+  <div class="images">
+    <h3>Images</h3>
+    <p><b>Images</b> are important to brand and personalize a website. To add an image, use the &gtimg&lt tag, and remember to specify the image's location.
+      This can either be the path to the image, relative to where you page is saved OR a URL.
+    <P>Download and save various sample images from a public domain site like <a href="http://www.pixabay.com">pixabay</a>.
+    </p>
+    <p>An image saved in the same directory as your web page can be displayed like so:</p>
+    <P>&ltimg src="kittens.jpg"&gt</P>
+    <P><img src="kittens.jpg"></P>
+    <p>And an image resource from another website can be displayed like this:</p>
+    <P>&ltimg src="https://placebear.com/200/400"&gt</P>
+    <P><img src="https://placebear.com/200/400"></P>
+  </div>
+  <div class="links">
+    <h3>Links</h3>
+    <P><b>Hyperlinks, or links for short</b> The &lta&gt tag is used to create links. You'll need the URL of the resource OR the path to another page.
+      The local link will only work if you downloaded all of the pages from this week's examples. Here are some examples:
+    <P>
+      <a href="http://www.minneapolis.edu">MCTC's website, a remote resource</a>
+    </P>
+    <P>
+      <a href="hello-bootstrap.html">Another Bootstrap example; a local file</a>
+    </P>
+    <P>You can add &lta&gt tags around images to make them clickable. Click on the cat image below to go to a larger version at pixabay.
+    </P>
+    <a href="https://pixabay.com/en/cat-animal-cute-pet-feline-kitty-618470/"><img src="small-cat.jpg"></a>
+    </P>
+  </div>
+  <div class="lists">
+    <h3>Lists</h3>
+    <P><b>Ordered and unordered lists</b> There are two types of lists, ordered, with numbers; and unordered, with bullet points.</P>
+    <P>Use the &ltol&gt tag to create an ordered list, then the &ltli&gt tag to define individual numbered list elements</P>
+    <ol>
+      <li>First of all...</li>
+      <li>And then you should....</li>
+      <li>And finally...</li>
+    </ol>
+    <P>Use the &ltul&gt tag to create a list, then the &ltli&gt tag to define individual
+      bullet-point list elements.
+    </P>
+    <ul>
+      <li>Pictures</li>
+      <li>Links</li>
+      <li>Lists</li>
+    </ul>
+  </div>
+
+</div>
+
+
+</body>
+</html>
+
+
