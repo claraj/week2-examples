@@ -57,7 +57,7 @@ li {
     font-style: italic;
 }
 
-
+/*apply style to all a elements */
 a {
     color:blue;
 }
