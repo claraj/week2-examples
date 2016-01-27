@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <title>Code</title>
 
+  <!-- The viewport is the visible area of a page. Pages may be wider
+   than the screen or browser window; and pages are often longer than
+   the browser window. This tag sets the width of the page equal to the
+   width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   <!--This uses highlight.js : javascript and CSS to not only display code in a code-y way,-->
   <!--but also adds language-specific syntax highlighting. More info at https://highlightjs.org/
@@ -18,6 +29,14 @@
 </head>
 <body>
 
+
+<div class="container text-center">
+  <div class="jumbotron">
+    <h1>CODE</h1>
+  </div>
+</div>
+<div class="mycodehere">
+<!--don't want bootstrap styles. Not in a div class=container.-->
 <p>Some Python Code</p>
 <pre>
   <code>
@@ -42,6 +61,11 @@
 
   </code>
 </pre>
+</div>
+
+<div class="container">
+More bootstrap-ified stuff here
+</div>
 
 </body>
 </html>

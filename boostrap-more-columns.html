@@ -82,11 +82,13 @@
 width, and update it as the window is resized-->
 <script>
 
-  document.body.onresize = displayWidth;
-  displayWidth();
+  window.addEventListener("resize", displayWidth);
+
+
+  displayWidth();   //Call displayWidth to display initial size.
 
   function displayWidth() {
-    var width = document.body.clientWidth;
+    var width = document.body.scrollWidth;
     document.getElementById("width").innerHTML =  "Window width = " + width + " pixels";
   }
 
