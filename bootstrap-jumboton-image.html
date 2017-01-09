@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>First Bootstrap Elements</title>
+  <title>Bootstrap with Jumbotron</title>
 
   <!-- The viewport is the visible area of a page. Pages may be wider
   than the screen or browser window; and pages are often longer than
@@ -10,46 +10,41 @@
   width of the browser window. The height stays the same. -->
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-
   <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
    also host Bootstrap on your server, but it's usually faster for the
    user for their browser to fetch it from a CDN. -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-
-
 </head>
 
-<div class="container">
+<!-- Can add your own styles to bootstrap. -->
+<!-- Either within the same HTML or in a separate .css file,
+if using external file, import it with a link in the header -->
+<style>
 
-  <h1>Computer Programming</h1>
+  .jumbotron {
+    background: url('images/kittens.jpg');
+    color:white;
+    text-shadow: 2px 2px black ;
+  }
 
-  <!-- Organize parts of page into rows, and columns -->
-
-  <div class="row">    <!--first row -->
-
-    <!--Inside the row, create a column-->
-    <div class="col-sm-6">
-      <img src="images/computer.jpg">
-    </div>  <!-- End of first column -->
-
-    <!-- Still inside the row, add a second column -->
-    <div class="col-sm-6">
-      <h2>A list of programming languages</h2>
-      <ul>
-        <li>Java</li>
-        <li>C#</li>
-        <li>Python</li>
-        <li>Swift</li>
-        <li>JavaScript</li>
-      </ul>
-    </div>   <!-- End of second column -->
-  </div>   <!-- End of row -->
-
-</div>  <!-- End of bootstrap container -->
+</style>
 
 <body>
+<div class="container">
+
+  <div class="jumbotron">
+    <h1 class="text-center">Jumbotron of Kittens!</h1>
+  </div>
+
+  <h1>And here's the rest of the page</h1>
+
+  <p>Your text here.</p>
+
+</div>
+
 
 </body>
 </html>
+
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Bootstrap Page</title>
+
+  <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Nav components, and dropdowns, need Bootstrap's JavaScript to do anything.
+  And JavaScript requires JQuery, so include that too -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+<!-- Bootstrap will identify this contain class div tag as a top-level
+ container and apply styles to the tags within. Put your Bootstrap elements
+ inside this class=container div element -->
+
+<div class="container">
+
+  <!-- Navigation tabs -->
+
+  <p>Bootstrap turns unordered list elements into tabs.
+    However, to make the tabs do anything, you'll need some JavaScript. </p>
+
+  <!--You have to have the a tag to make Bootstrap display the list items as tabs-->
+
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#cats" aria-controls="cats" role="tab" data-toggle="tab">Cats</a></li>
+    <li role="presentation"><a href="#birds"  aria-controls="birds" role="tab" data-toggle="tab">Birds</a></li>
+    <li role="presentation"><a href="#rabbits"  aria-controls="rabbits" role="tab" data-toggle="tab">Rabbits</a></li>
+  </ul>
+
+  <!-- The tab panes for each tab. Bootstrap's JavaScript uses the attributes of the
+  li elements to display the correct tab panel when a tab is clicked.  -->
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="cats">A domestic animal that says 'meow'.</div>
+    <div role="tabpanel" class="tab-pane" id="birds">Birds are descended from dinosaurs.</div>
+    <div role="tabpanel" class="tab-pane" id="rabbits">There are a number of wild rabbits in my back yard.</div>
+  </div>
+
+
+  <P>Here are some navigation pills. They behave like tabs, just with different styling. </P>
+
+  <ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#penguins" aria-controls="penguins" role="tab" data-toggle="tab">Penguins</a></li>
+    <li role="presentation"><a href="#polarbears"  aria-controls="polarbears" role="tab" data-toggle="tab">Polar Bears</a></li>
+    <li role="presentation"><a href="#seals"  aria-controls="seals" role="tab" data-toggle="tab">Seals</a></li>
+  </ul>
+
+  <!-- The tab panes for each pill. Bootstrap's JavaScript uses the attributes of the
+  li elements to display the correct tab panel when a pill is clicked.  -->
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="penguins">Black and white flightless birds that are excellent swimmers.</div>
+    <div role="tabpanel" class="tab-pane" id="polarbears">Polar bears live in the arctic. They can swim for miles.</div>
+    <div role="tabpanel" class="tab-pane" id="seals">Seals are excellent swimmers too.</div>
+  </div>
+
+
+
+</div>
+
+</body>
+</html>
+
+
+

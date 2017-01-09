@@ -1,0 +1,82 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Bootstrap Elements</title>
+
+  <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <style>
+    .java {
+      background-color: aqua;
+    }
+    .python {
+      background-color: greenyellow;
+    }
+    .csharp {
+      background-color: blueviolet;
+    }
+  </style>
+
+</head>
+
+<div class="container">
+
+  <h1>A List of Computer Programming Languages</h1>
+
+  <!-- Organize parts of page into rows, and columns -->
+
+
+  <div class="row">  <!--first row -->
+
+    <!--Inside the row, create a column. This will contain a small image and span 3 column units. -->
+    <div class="col-sm-3">
+      <img src="images/computer.jpg" width="200">
+    </div>  <!-- End of first column -->
+
+    <!-- Still inside the row, add a second column. This has longer text, so will need more space, spanning 9 column units. -->
+    <div class="col-sm-9">
+      <ul>
+        <li>Java, a compiled, object-oriented, strongly-typed, language. Java's strengths include the ability to write code once, and then run anywhere with a JVM (Java virtual machine) installed. Java is used for enterprise applications, web applications, and Android mobile apps.</li>
+        <li>C#, a compiled, object-oriented language, created by Microsoft, and part of the .NET framework. It is used to create applications for the Windows platform, and in conjunction with ASP to create web applications. </li>
+        <li>Python is an open-source multi-paradigm language, supporting many styles of programming. It is widely used in many applications, including scripting, web applications, and data science.</li>
+        <li>Swift is a newer language created by Apple for use developing applications for the Mac OS-X platform, as well as for iOS mobile apps. </li>
+        <li>The initial prototype of JavaScript was created in 10 days in 1995. It is currently eating the world.</li>
+      </ul>
+    </div>   <!-- End of second column -->
+  </div>   <!-- End of row -->
+
+  <!-- Another row. The columns are different widths. -->
+  <div class="row">
+
+    <div class="col-sm-1 python">
+      <P>Python</P>
+    </div>
+
+    <div class="col-sm-7 java">
+      <P>Wide column for Java</P>
+    </div>
+    <div class="col-sm-4 csharp">
+      <P>Use up the rest of the space for C#</P>
+    </div>
+
+  </div>
+
+
+</div>  <!-- End of bootstrap container -->
+
+<body>
+
+</body>
+</html>
+

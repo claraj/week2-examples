@@ -1,0 +1,58 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Bootstrap Page</title>
+
+  <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your own server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <!-- Bootstrap will identify this contain class div tag as a top-level
+   container and apply styles to the tags within. Put your Bootstrap elements
+   inside this class=container div element -->
+
+  <div class="container">
+
+    <h1>Bootstrap buttons</h1>
+
+    <p>Bootstrap can style and color-code buttons. </p>
+
+    <P>The default colors aim to reflect the meaning of the buttons.
+      It's up to you to decide on the meaning of the buttons in your app.</P>
+
+    <P>So buttons for dangerous actions (e.g. delete your account) are red, warnings are orange.</p>
+
+    <button type="button" class="btn btn-danger">Delete everything!</button>
+    <button type="button" class="btn btn-warning">This could be bad!</button>
+
+    <P>Regular buttons are white/grey, info buttons are blue</P>
+    <button type="button" class="btn btn-default">Just a regular button</button>
+    <button type="button" class="btn btn-info">More info?</button>
+
+    <P>Primary buttons, indicating the most likely flow for the application, are blue.
+      Positive buttons are green</P>
+    <button type="button" class="btn btn-primary">Recommend clicking here!</button>
+    <button type="button" class="btn btn-success">A positive button!</button>
+
+    <P>None of the buttons do anything yet, other than look nice.
+      We'll wire up some button functionality soon!</P>
+
+  </div>
+
+</body>
+</html>
+
+
+
