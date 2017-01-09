@@ -18,12 +18,18 @@
 
   <!--This uses highlight.js : javascript and CSS to not only display code in a code-y way,-->
   <!--but also adds language-specific syntax highlighting. More info at https://highlightjs.org/
-  To make code look pretty, add these three lines at the top of your file, in the <head>
-  and then surround your code with <pre><code>.... </code></pre> tags-->
-
+  To make code look pretty, add the following three lines at the top of your file, in the <head>
+  and then surround your code with <pre><code>.... </code></pre> tags. Highlight.js will find it and style it.-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+  <!--Add some padding to the whole page. TODO Move this to your external style sheet. -->
+  <style>
+    body {
+      padding: 10px;
+    }
+  </style>
 
 
 </head>
@@ -44,7 +50,7 @@
     #todo finish this program
     print("hello world")
     a = 6
-    if a < 7 :
+    if a < 7:
       print('a was larger than 7')
 
   </code>
@@ -53,7 +59,7 @@
 <p>And some Java code</p>
 <pre>
   <code>
-    class hello {
+    class Hello {
       public static void main(String args[]) {
         System.out.println("Hello world and hello Highlight.js");
       }
@@ -64,7 +70,8 @@
 </div>
 
 <div class="container">
-More bootstrap-ified stuff here
+  <!--If you want to follow your code with more components styled with bootstrap,
+  you can create another container and add the components to it. -->
 </div>
 
 </body>
