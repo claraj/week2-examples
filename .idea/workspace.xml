@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819b569e-e8d8-4b3f-b670-080575c34ef0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/some-code-with-highlightjs.html" afterPath="$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/hello_input_types.html" afterPath="$PROJECT_DIR$/forms/hello_input_types.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="week2-examples-css-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="some-code-with-highlightjs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="some-code-with-highlightjs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -78,14 +77,14 @@
       <file leaf-file-name="index_builder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_builder/index_builder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="211">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -151,7 +150,6 @@
         <option value="$PROJECT_DIR$/programming-style.css" />
         <option value="$PROJECT_DIR$/bootstrap-jumboton-alt.html" />
         <option value="$PROJECT_DIR$/bootstra-dropdown.html" />
-        <option value="$PROJECT_DIR$/index_builder/index_builder.py" />
         <option value="$PROJECT_DIR$/boostrap-basicHTMLtags.html" />
         <option value="$PROJECT_DIR$/boostrap-more-columns.html" />
         <option value="$PROJECT_DIR$/boostrap-more-columns-with-styles.html" />
@@ -197,6 +195,7 @@
         <option value="$PROJECT_DIR$/forms/feedback-styles.css" />
         <option value="$PROJECT_DIR$/forms/hello_input_types.html" />
         <option value="$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html" />
+        <option value="$PROJECT_DIR$/index_builder/index_builder.py" />
       </list>
     </option>
   </component>
@@ -209,7 +208,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="87" />
     <option name="y" value="33" />
-    <option name="width" value="984" />
+    <option name="width" value="1052" />
     <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -358,7 +357,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1452356477311</updated>
-      <workItem from="1546971913872" duration="14072000" />
+      <workItem from="1546971913872" duration="14324000" />
     </task>
     <task id="LOCAL-00001" summary="Week 2 examples - css and bootstrap">
       <created>1452372872052</created>
@@ -427,13 +426,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14072000" />
+    <option name="totallyTimeSpent" value="14324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="33" width="984" height="801" extended-state="0" />
+    <frame x="87" y="33" width="1052" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22949117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21435499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -863,10 +862,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1547132484000" expanded="true" signature="493:745" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index_builder/index_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -876,16 +885,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <marker date="1547132484000" expanded="true" signature="493:745" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
