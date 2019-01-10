@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819b569e-e8d8-4b3f-b670-080575c34ef0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/browser-fonts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/google-fonts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/feedback-styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/hello_forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/hello_input_types.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/hello_input_types_labels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/hello_input_types_names_labels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/required.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_feedback_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_feedback_form_bootstrap_styles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/student_feedback_form_sakura_styles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms/username_and_password.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/boostrap-basicHTMLtags.html" afterPath="$PROJECT_DIR$/bootstrap/boostrap-basicHTMLtags.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/boostrap-more-columns-with-styles.html" afterPath="$PROJECT_DIR$/bootstrap/boostrap-more-columns-with-styles.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/boostrap-more-columns.html" afterPath="$PROJECT_DIR$/bootstrap/boostrap-more-columns.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-buttons.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-buttons.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-columns.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-columns.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-dropdown.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-dropdown.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-glyphicons.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-glyphicons.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-images.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-images.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-jumboton-image.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-jumboton-image.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-jumbotron-with-styles.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-jumbotron-with-styles.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-jumbotron.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-jumbotron.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-non-equal-width-columns.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-non-equal-width-columns.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap-tabs.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap-tabs.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font_awesome_icons.html" afterPath="$PROJECT_DIR$/fonts/font_awesome_icons.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hello-bootstrap.html" afterPath="$PROJECT_DIR$/bootstrap/hello-bootstrap.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/computer.jpg" afterPath="$PROJECT_DIR$/bootstrap/images/computer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/kittens.jpg" afterPath="$PROJECT_DIR$/bootstrap/images/kittens.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/small-cat.jpg" afterPath="$PROJECT_DIR$/bootstrap/images/small-cat.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sunset.jpg" afterPath="$PROJECT_DIR$/bootstrap/images/sunset.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/programming-style.css" afterPath="$PROJECT_DIR$/bootstrap/programming-style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/some-code-with-highlightjs.html" afterPath="$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forms/hello_input_types.html" afterPath="$PROJECT_DIR$/forms/hello_input_types.html" />
     </list>
     <ignored path="week2-examples-css-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,56 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hello-bootstrap.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/hello-bootstrap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="required.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forms/required.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="username_and_password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forms/username_and_password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student_feedback_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forms/student_feedback_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student_feedback_form_sakura_styles.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forms/student_feedback_form_sakura_styles.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="student_feedback_form_bootstrap_styles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms/student_feedback_form_bootstrap_styles.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,7 +33,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feedback-styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="some-code-with-highlightjs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <marker date="1547132484000" expanded="true" signature="493:745" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback-styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms/feedback-styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
@@ -122,31 +55,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browser-fonts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fonts/browser-fonts.html">
+      <file leaf-file-name="bootstrap-columns.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap-columns.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="208">
+              <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-fonts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fonts/google-fonts.html">
+      <file leaf-file-name="hello_input_types.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/hello_input_types.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font_awesome_icons.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fonts/font_awesome_icons.html">
+      <file leaf-file-name="index_builder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_builder/index_builder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="38" column="71" lean-forward="true" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+            <state relative-caret-position="63">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boostrap-basicHTMLtags.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-basicHTMLtags.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boostrap-more-columns.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-more-columns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boostrap-more-columns-with-styles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-more-columns-with-styles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
               <folding />
             </state>
           </provider>
@@ -209,7 +182,6 @@
         <option value="$PROJECT_DIR$/bootstrap/bootstrap-tabs.html" />
         <option value="$PROJECT_DIR$/bootstrap/boostrap-basicHTMLtags.html" />
         <option value="$PROJECT_DIR$/forms/hello_forms.html" />
-        <option value="$PROJECT_DIR$/forms/hello_input_types.html" />
         <option value="$PROJECT_DIR$/forms/hello_input_types_labels.html" />
         <option value="$PROJECT_DIR$/forms/hello_input_types_names_labels.html" />
         <option value="$PROJECT_DIR$/forms/required.html" />
@@ -223,6 +195,8 @@
         <option value="$PROJECT_DIR$/fonts/google-fonts.html" />
         <option value="$PROJECT_DIR$/forms/student_feedback_form_bootstrap_styles.html" />
         <option value="$PROJECT_DIR$/forms/feedback-styles.css" />
+        <option value="$PROJECT_DIR$/forms/hello_input_types.html" />
+        <option value="$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html" />
       </list>
     </option>
   </component>
@@ -233,8 +207,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-32" />
-    <option name="y" value="156" />
+    <option name="x" value="87" />
+    <option name="y" value="33" />
     <option name="width" value="984" />
     <option name="height" value="801" />
   </component>
@@ -266,17 +240,12 @@
             <path>
               <item name="week2-examples-css-bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="week2-examples-css-bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week2-examples-css-bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week2-examples-css-bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="week2-examples-css-bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="week2-examples-css-bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="highlight-js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="week2-examples-css-bootstrap" type="b2602c69:ProjectViewProjectNode" />
@@ -307,6 +276,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/highlight-js" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/bootstrap" />
       <recent name="$PROJECT_DIR$/images" />
@@ -388,7 +358,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1452356477311</updated>
-      <workItem from="1546971913872" duration="13006000" />
+      <workItem from="1546971913872" duration="14072000" />
     </task>
     <task id="LOCAL-00001" summary="Week 2 examples - css and bootstrap">
       <created>1452372872052</created>
@@ -457,10 +427,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13006000" />
+    <option name="totallyTimeSpent" value="14072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-32" y="156" width="984" height="801" extended-state="0" />
+    <frame x="87" y="33" width="984" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22949117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -469,7 +439,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060906515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02691218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27053824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -661,16 +631,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/some-code-with-highlightjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <marker date="1504302225000" expanded="true" signature="1140:1390" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -679,50 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_builder/index_builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-more-columns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-more-columns-with-styles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap-buttons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap-columns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
           <folding />
         </state>
       </provider>
@@ -799,26 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-basicHTMLtags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forms/hello_forms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/hello_input_types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -916,6 +820,72 @@
         <state relative-caret-position="117">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-basicHTMLtags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-more-columns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/boostrap-more-columns-with-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap-columns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="213" lean-forward="false" selection-start-line="16" selection-start-column="213" selection-end-line="16" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/hello_input_types.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_builder/index_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/highlight-js/some-code-with-highlightjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1547132484000" expanded="true" signature="493:745" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

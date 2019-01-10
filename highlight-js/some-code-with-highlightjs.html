@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code</title>
+
+  <!--This uses highlight.js : javascript and CSS to not only display code in a code-y way,-->
+  <!--but also adds language-specific syntax highlighting. More info at https://highlightjs.org/
+  To make code look pretty, add the following three lines at the top of your file, in the <head>
+  and then surround your code with <pre><code>.... </code></pre> tags. Highlight.js will find it and style it.-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+<body>
+
+
+<h1>Some Code, Styled with Highlight.js</h1>
+
+<p>More information may be found at <a href="https://highlightjs.org/usage/">highlightjs.org</a></p>
+
+<div class="mycodehere">
+  <p>Some Python Code</p>
+  <pre>
+  <code>
+
+    #todo finish this program
+    print("hello world")
+    a = 6
+    if a < 7:
+      print('a was larger than 7')
+
+  </code>
+</pre>
+
+  <p>And some Java code</p>
+  <pre>
+  <code>
+    class Hello {
+      public static void main(String args[]) {
+        System.out.println("Hello world and hello Highlight.js");
+      }
+    }
+
+  </code>
+</pre>
+</div>
+
+
+</body>
+</html>
