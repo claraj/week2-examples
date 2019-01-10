@@ -43,7 +43,9 @@ def write_level(root):
             fname = ( levelsdown*"" ) + f.name
 
             out += "<h3>%s</h3>" % fname
+            out += '\n'
             write_level(f.path)
+
 
         else:
 
@@ -55,6 +57,7 @@ def write_level(root):
             fname = ( levelsdown*"" ) + f.name
             html = entry % (link, fname)
             out += html
+            out += '\n'
 
     levelsdown -=1
 
