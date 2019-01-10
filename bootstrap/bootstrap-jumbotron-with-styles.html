@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap with Glyphicons</title>
+  <title>Bootstrap with Jumbotron</title>
 
   <!-- The viewport is the visible area of a page. Pages may be wider
   than the screen or browser window; and pages are often longer than
@@ -14,7 +14,18 @@
   <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
    also host Bootstrap on your server, but it's usually faster for the
    user for their browser to fetch it from a CDN. -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+  <style>
+
+    .jumbotron {
+        background-color : yellow;
+        color: darkslategray;
+        font-style: italic;
+    }
+
+  </style>
 
 </head>
 
@@ -23,21 +34,15 @@
 
   <div class="jumbotron">
 
+    <!--These elements will be in larger text, inside the Jumbotron-->
     <h1>I'm a really important part of the page!</h1>
-
-    <P><span class="glyphicon glyphicon-heart"></span></P>
-
     <P>Important message here</p>
 
   </div>
 
   <h1>And here's the rest of the page</h1>
+
   <p>Blah, blah, blah, your text here.</p>
-
-  <p>Here's another Glyphicon: <span class="glyphicon glyphicon-floppy-disk"></span>
-
-  <P>The full list is at <a href="http://getbootstrap.com/components/">Bootstrap's website</a>.
-    Notice that Bootstrap's style for links is to only underline when user hovers over it.</P>
 </div>
 
 

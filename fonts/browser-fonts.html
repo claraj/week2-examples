@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browser Fonts</title>
+
+  <style>
+
+    body {
+      font-family: "Lucida Console", Monaco, monospace;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<h1>Example page using browser fonts</h1>
+
+<p>This page may look different between browsers. The browser will attempt to use the font specified, but if
+it doesn't know that font, then the text will be the default browser font. So, it's useful to provide a list
+  of fonts including a <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">web-safe font</a>
+  that all browsers should know.</p>
+
+<p>So for this style, </p>
+
+<pre>
+  <code>
+    body {
+      font-family: "Lucida Console", Monaco, monospace;
+    }
+  </code>
+</pre>
+
+<p>The browser will try to use the font <b>Lucida Console</b> first. If it can't find that font,
+  it will try <b>Monaco</b>, and it it can't find that font, it will use a font in the <b>serif</b> family.
+  There are a set of font-families that all browsers should know, for examples serif, san-serif, monospace.</b> </p>
+
+</body>
+</html>

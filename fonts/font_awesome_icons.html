@@ -1,0 +1,54 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Font Awesome Icons</title>
+
+  <!-- This stylesheet is needed for Font Awesome icons. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+</head>
+
+<body>
+
+<h1>Font Awesome Icons</h1>
+
+<P>As well as fonts, Font Awesome has ~600 icons. Here's a list:
+  <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a></p>
+
+<P>Camera icon: <i class="fa fa-camera-retro"  aria-hidden="true"></i></P>
+<P>Heart icon: <i class="fa fa-heart"  aria-hidden="true"></i></P>
+<P>Car icon: <i class="fa fa-car"  aria-hidden="true"></i></P>
+
+
+<P>Icons can be different sizes, too! Add the <code>fa-2x</code> or <code>fa-3x</code> ... class to set the size.</p>
+
+<i class="fa fa-trademark" aria-hidden="true"></i>
+<i class="fa fa-trademark fa-2x" aria-hidden="true"></i>
+<i class="fa fa-trademark fa-3x" aria-hidden="true"></i>
+<i class="fa fa-trademark fa-4x" aria-hidden="true"></i>
+<i class="fa fa-trademark fa-5x" aria-hidden="true"></i>
+
+
+<P>What does the <code>aria-hidden</code> attribute do? From FontAwesome's website,</P>
+
+<blockquote>Note: to improve web accessibility, we recommend using aria-hidden="true"
+  to hide icons used purely for decoration.</blockquote>
+
+<p>While some icons are decorative, other icons have meaning on a page.
+  For example, you might use a plane icon for the user to click to check on a flight arrival.
+  To make this accessible, add a title to the icon, which will be shown as a tool tip, and a span for screen readers.
+
+<p>Hover over the plane icon, you'll see a tool tip.</p>
+
+<P>
+<i aria-hidden="true" class="fa fa-plane" title="Update flight status"></i>  <!-- The title attribute will be shown as a tool tip when hovering on the icon -->
+<span class="sr-only">Update flight status</span>   <!-- This is not visible, but the text will be read aloud by a screen reader -->
+<span>Delayed by 20 minutes</span>  <!-- Not part of the icon. -->
+</P>
+
+
+</body>
+
+</html>
