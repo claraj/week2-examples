@@ -1,0 +1,117 @@
+<!DOCTYPE html>   <!--Specifying HTML 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Bootstrap Elements</title>
+
+  <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+  <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!--Can supplement Bootstrap's styles with our own. -->
+  <link rel="stylesheet" href="programming-style.css">
+
+</head>
+
+<body>
+
+<!--container-fluid re-sizes in a smoother way than container. -->
+
+<div class="container-fluid">
+
+  <h1>Computer Programming</h1>
+
+  <!--A row with 2 columns.
+  These are narrow so should only stack at very small resolutions -->
+  <div class="row schools">
+
+    <div class="col-xs-6">
+      <h4 class="school mctc">Study at <a href="http://www.minneapolis.edu">MCTC</a></h4>
+    </div>
+
+    <div class="col-xs-6">
+      <h4 class="school stpaul">Study at <a href="http://saintpaul.edu">St Paul College</a></h4>
+    </div>
+
+  </div>
+
+
+
+  <!--Another row. Define in a div with class = row -->
+  <div class="row intro">
+
+    <!--Inside the row, create a column.
+    These columns stack at small resolution and below-->
+    <div class="col-md-6">
+      <img src="images/computer.jpg">
+    </div>
+
+    <!-- Still inside the row, add a second column -->
+    <div class="col-md-6">
+
+      <h2>A list of programming languages</h2>
+      <ul>
+        <li>Java</li>
+        <li>C#</li>
+        <li>Python</li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!--A second row with 4 columns. Columns stack at small resolution and below. -->
+  <div class="row skills">
+
+    <div class="col-sm-3">
+      <h4 class="skill">Research</h4>
+    </div>
+
+    <div class="col-sm-3">
+      <h4 class="skill">Analysis</h4>
+    </div>
+
+    <div class="col-sm-3">
+      <h4 class="skill">Logic</h4>
+    </div>
+
+    <div class="col-sm-3">
+      <h4 class="skill">Design</h4>
+    </div>
+
+
+  </div>
+
+
+  <!-- Create a third row with 3 columns. Again, add a custom class. -->
+  <div class="row details">
+
+    <!--These are wider elements so should stack at medium and below -->
+    <div class="col-md-4" id="java">
+      <h2>Java</h2>
+      <p>Java is a popular compiled, object oriented language</p>
+    </div>
+
+    <div class="col-md-4" id="csharp">
+      <h2>C#</h2>
+      <p>C# is also a compiled, object oriented .NET language</p>
+    </div>
+
+    <div class="col-md-4" id="python">
+      <h2>Python</h2>
+      <p>Python is an interpreted, multi-paradigm language</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
+
