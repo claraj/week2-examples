@@ -15,8 +15,11 @@ or to Bootstrap's classes*/
     background-color:lightgray;
 }
 
+
+
 .mctc,  .stpaul {
     color:darkblue;
+    margin: 20px;
 }
 
 
