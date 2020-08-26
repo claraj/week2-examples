@@ -1,0 +1,26 @@
+.section {
+    border: 1px black double;
+    box-shadow: 2px 2px gray;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.content {
+    background: gray;
+    /* margin: 10px; */
+    padding: 10px;
+}
+
+#important {
+    font-weight: bold;
+    color: darkred;
+}
+
+#section-1 {
+    background: pink;
+}
+
+#section-2 {
+    background: greenyellow;
+}
