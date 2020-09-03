@@ -77,19 +77,21 @@
 </body>
 
 
-<!-- Little bit of JavaScript to display the browser screen
+<!-- JavaScript to display the browser screen
 width, and update it as the window is resized-->
 <script>
 
-  window.addEventListener("resize", displayWidth);
-
-
-  displayWidth();   //Call displayWidth to display initial size.
-
   function displayWidth() {
-    var width = document.body.scrollWidth;
-    document.getElementById("width").innerHTML =  "Window width = " + width + " pixels";
+    let width = document.body.scrollWidth;
+    let widthDisplayEl = document.querySelector('#width')
+    widthDisplayEl.innerHTML = `Window width = ${width} pixels`
   }
+
+  displayWidth()   //Call displayWidth to display initial size.
+
+  // Add resize event listener to the window object
+  // to update when window is resized 
+  window.addEventListener('resize', displayWidth)
 
 </script>
 </html>
