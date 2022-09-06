@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Forms</title>
+</head>
+<body>
+
+<form>
+
+    <!-- A text input with associated label -->
+    <label for="user-name">Enter your name: </label>
+    <input id="user-name" required type="text">
+
+    <input type="number" value="100">
+
+    <br>
+
+    <textarea rows="15" cols="50">Default text here</textarea>
+    
+    <br>
+
+    <label for="quantity">How many?</label>
+
+    <select id="quantity" name="quantity">
+        <option>One</option>
+        <option>Two</option>
+        <option>Three</option>
+        <option>Four</option>
+    </select>
+
+    <br>
+
+    <h3>Delivery or pickup?</h3>
+    <label for="delivery-method-delivery">Delivery</label>
+    <input name="delivery-method" id="delivery-method-delivery" type="radio">
+    
+    <label for="delivery-method-pickup">Pickup</label>
+    <input name="delivery-method" id="delivery-method-pickup" type="radio">
+
+    <h3>Today or later?</h3>
+    <label for="delivery-now">Now</label>
+    <input name="delivery-time" id="delivery-now" type="radio">
+    
+    <label for="delivery-later">Later</label>
+    <input name="delivery-time" id="delivery-later" type="radio">
+
+    <br>
+    <label for="agree-to-terms">Agree to terms and conditions</label>
+    <input name="agree-to-terms" id="agree-to-terms" type="checkbox">
+
+    <br>
+
+    <!-- Displays a button, and when the button is clicked, submit the form  -->
+    <input type="submit">
+
+</form>
+    
+</body>
+</html>
